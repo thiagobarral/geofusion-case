@@ -19,12 +19,12 @@ Para a classificação do potencial das lojas nos bairros de SP também foram te
 Com os dados previstos de faturamento e de classificação para os bairros de SP gerei um Power BI para visualização e apresentação dos resultados.
 
 Conclusão dos Resultados:
-
+A partir das previsões estimadas pelos modelos pude concluir que SP é uma localidade com muito potencial a ser explorado. Apresentando quase 45% dos bairros estudados com potencial alto para abertura de uma loja. Outro dado interessante é o faturamento total previsto, superando os dados do RJ.
 
 Próximos passos:
 Alguns dados de renda média estavam faltando, e os tratei simplesmente tirando toda a informação daquela localidade. Um próximo estudo poderia atacar se há aumento nas métricas de avaliação dos modelos se algum método de preenchimento desse dados faltantes dosse implementado.
 Outro ponto sensível é ação sobre os outliers. Como a base de dados era pequena resolvi manter os outliers mas também poderia ser outro ponto para possíveis verificações.
 Outra forma para atacar esse problema em prol de ser mais ainda mais assertivo na estimação dos faturamentos, séria primeiramente classificar as regiões de SP e em seguida para cada nível gerar um modelo de regressão, ou seja, o nível Alto teria um modelo de regressão treinado somente com os dados dos bairros classificados como Alto.
 
-Para agregar ainda mais ao banco de dados e provavelmente melhorar as previsões, dados como valor do ticket médio gastos em restaurantes do bairro, média do consumo de energia elétrica domiciliar e dimensão geográfica da localidade, seriam exemplos de dados que poderiam ajudar a alavancar o resultado.
+Para agregar ainda mais ao banco de dados e provavelmente melhorar as previsões, dados como valor do ticket médio gastos em restaurantes do bairro, média do consumo de energia elétrica domiciliar e dimensões geográficas da localidade, seriam exemplos de dados que poderiam ajudar a alavancar o resultado.
 
