@@ -12,8 +12,19 @@ Ojetivo:
 Informações técnicas:
 A linguagem Python foi utilizada para realização da análise de dados e escolha do melhor modelo de regressão e de classificação.
 
-Para estimar o faturamento das lojas de SP foram testas os modelos de regressão, Linear Regression, Support Vector Regression e Decision Tree Regressor. E utilizando Root Mean Squared Error para avaliação dos modelos. Com os resultados da base de treinamento e teste o modelo Decision Tree Regressor foi identificado como o melhor para o cenário. Em seguida foi utilizado o otimizador de hiperparâmetros chamado Random Search para tunar o modelo com o objetivo de alcançar uma resposta ainda mais precisa.
+Para estimar o faturamento das lojas de SP foram testados os modelos de regressão, Linear Regression, Support Vector Regression e Decision Tree Regressor. E utilizando Root Mean Squared Error para avaliação dos modelos. Com os resultados da base de treinamento e teste o modelo Decision Tree Regressor foi identificado como o melhor para o cenário. Em seguida foi utilizado o otimizador de hiperparâmetros chamado Random Search para otimizar o modelo com o objetivo de alcançar uma resposta ainda mais precisa.
 
 Para a classificação do potencial das lojas nos bairros de SP também foram testados três algoritmos, foram eles: Logistic Regression, k-Nearest Neighbors e Support Vector Machines. Lenvando a acurácia como métrica de classificação dos modelos, o modelo que obteve a melhor resposta foi o k-Nearest Neighbors.
 
-Com os dados previstos de faturamento e de classificação para os bairros de SP gerei um Power BI para visualização dos resultados.
+Com os dados previstos de faturamento e de classificação para os bairros de SP gerei um Power BI para visualização e apresentação dos resultados.
+
+Conclusão dos Resultados:
+
+
+Próximos passos:
+Alguns dados de renda média estavam faltando, e os tratei simplesmente tirando toda a informação daquela localidade. Um próximo estudo poderia atacar se há aumento nas métricas de avaliação dos modelos se algum método de preenchimento desse dados faltantes dosse implementado.
+Outro ponto sensível é ação sobre os outliers. Como a base de dados era pequena resolvi manter os outliers mas também poderia ser outro ponto para possíveis verificações.
+Outra forma para atacar esse problema em prol de ser mais ainda mais assertivo na estimação dos faturamentos, séria primeiramente classificar as regiões de SP e em seguida para cada nível gerar um modelo de regressão, ou seja, o nível Alto teria um modelo de regressão treinado somente com os dados dos bairros classificados como Alto.
+
+Para agregar ainda mais ao banco de dados e provavelmente melhorar as previsões, dados como valor do ticket médio gastos em restaurantes do bairro, média do consumo de energia elétrica domiciliar e dimensão geográfica da localidade, seriam exemplos de dados que poderiam ajudar a alavancar o resultado.
+
