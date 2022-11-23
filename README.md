@@ -20,6 +20,8 @@ Com os dados previstos de faturamento e de classificação para os bairros de SP
 
 Conclusão dos Resultados:
 A partir das previsões estimadas pelos modelos pude concluir que SP é uma localidade com muito potencial a ser explorado. Apresentando quase 45% dos bairros estudados com potencial alto para abertura de uma loja. Outro dado interessante é o faturamento total previsto, superando os dados do RJ.
+Focando no público alvo aderência a população de 25 a 34 anos e 35 a 49 anos foi de mais de 55%, ou seja, o somatório da população englobada nos bairros classificados como "Alto" foi de mais de 55% da população total.
+Já a aderência para os domicílios de renda A1 e A2 superou os 70% e para B1 foi de 61,5% e B2 de 44,5%.
 
 Próximos passos:
 Alguns dados de renda média estavam faltando, e os tratei simplesmente tirando toda a informação daquela localidade. Um próximo estudo poderia atacar se há aumento nas métricas de avaliação dos modelos se algum método de preenchimento desse dados faltantes dosse implementado.
